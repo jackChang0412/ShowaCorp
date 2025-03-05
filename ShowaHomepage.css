@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 導覽列 */
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  top: 0;
+  background-color: #2a2828; 
+  z-index: 10;
+}
+.navbar .logo a {
+  font-size: 1.3rem;
+  font-family: 'Georgia', serif; /* 復古字體 */
+  color: #b54b3a; /* 昭和紅 */
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px; 
+}
+.nav-links li {
+  margin: 0px 12px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #ec5435; /* 懸停效果 */
+}
+
+/* 主頁 */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* 高度占視窗的 100% */
+  background-image: url('img/image.png'); 
+  background-size: cover;
+  background-position: center;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 黑色半透明 */
+  color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text h1{
+  font-size: 2.5rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 30px;
+}
+.text span{
+  font-size: 2.5rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+  color: #b54b3a;
+}
+.text p{
+  font-size: 2.5rem;
+  font-family: 'Arial', sans-serif;
+  opacity: 0.8;
+}
+
+/*簡易介紹*/
+.container-1{
+  position: relative;
+  width: 100%;
+  height: 50vh; /* 高度占視窗的 50% */
+  background-image: url('img/street_1.webp'); 
+  background-size: cover;
+  background-position: center;
+}
+.container-overlay-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* 覆蓋寬度的一半 */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色覆蓋層 */
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+}
+.container-overlay-1 h1{
+  color: white;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container-overlay-1 p{
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  font-family: 'Arial', sans-serif;
+}
+.container-2{
+  position: relative;
+  width: 100%;
+  height: 50vh; /* 高度占視窗的 50% */
+  background-image: url('img/street_2.webp'); 
+  background-size: cover;
+  background-position: center;
+}
+.container-overlay-2{
+  position: absolute;
+  top: 0; /* 將 overlay 放在右半邊 */
+  right: 0;
+  width: 50%; /* 覆蓋寬度的一半 */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色覆蓋層 */
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+}
+.container-overlay-2 h1{
+  color: white;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container-overlay-2 p{
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  font-family: 'Arial', sans-serif;
+}
+
+/*菜單種類*/
+.cards{
+  display: flex; /* 使用 flexbox */
+  flex-wrap: wrap; /* 允許換行 */
+  gap: 20px; /* 卡片之間的間距 */
+  justify-content: center; /* 卡片居中 */
+  padding: 40px 20px; /* 區域內邊距 */
+  background-color: #fffefe; /* 背景顏色 */
+}
+.card{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(32, 29, 29, 0.1);
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 calc(25% - 20px);
+  max-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; /* 防止內容溢出 */
+}
+.card img {
+  width: 100%; /* 圖片寬度佔滿容器 */
+  height: auto; /* 保持圖片比例 */
+  border-radius: 8px 8px 0 0; /* 圖片的圓角 */
+  margin-bottom: 15px; /* 圖片和文字間距 */
+}
+.card h2 {
+  font-size: 1.5rem;
+  color: #b54b3a;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 地圖 */
+.map-container {
+  margin-top: 30px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.map-container h1{
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+iframe {
+  border: none; /* 移除內部邊框 */
+}
+
+/* FAQ */
+.FAQ-container{
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto;
+}
+.FAQ-container h1{
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+.FAQ-container details{
+  background-color: white;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+.FAQ-container summary{
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #22211b;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  transition: color 0.3s ease;
+}
+.FAQ-container summary:hover {
+  color: #b54b3a;
+  
+}
+.FAQ-container p{
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+/* 頁腳 */
+.footer {
+  background-color: #2a2828;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffd700;
+}
+
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: color 0.3 ease, transform 0.3 ease;
+}
+.social-media a:hover {
+  color: #ffd700;
+  transform: scale(1.2); /* 懸停效果 */
+}
+
+/* 提示框 */
+#messageBox{
+  position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    opacity: 0; /* 預設隱藏 */
+    transition: opacity 0.3s ease-in-out; /* 平滑顯示 */
+    pointer-events: none; /* 不影響點擊 */
+}
+#messageBox.show {    
+  opacity: 1;     /* 當接近底部時，顯示 */
+} 

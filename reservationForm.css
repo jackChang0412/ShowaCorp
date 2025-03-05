@@ -1,0 +1,75 @@
+body {
+    background: url('img/image.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 預約表單容器 */
+
+.reservation-container{
+    background: rgba(242, 237, 237, 0.1); /* 半透明背景 */
+    backdrop-filter: blur(10px); /* 玻璃毛玻璃效果 */
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 450px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 標題 */
+.reservation-container h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* 標籤 */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 輸入框 */
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+}
+
+/* 改變 placeholder 顏色 */
+input::placeholder {
+    color: rgba(40, 40, 40, 0.6);
+}
+
+/* 按鈕 */
+button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 按鈕 Hover 效果 */
+button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
