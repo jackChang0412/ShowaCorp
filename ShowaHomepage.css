@@ -5,6 +5,26 @@
     font-family: Arial, sans-serif;
 }
 
+
+/* 手機版（螢幕寬度小於 768px） */
+@media screen and (max-width: 768px) {
+  .cards {
+      flex-direction: column; /* 讓元素垂直排列 */
+  }
+
+  .card {
+      width: 100%; /* 讓菜單項目佔滿整排 */
+  }
+}
+
+/* 平板（768px - 1024px） */
+@media screen and (max-width: 1024px) {
+  .card {
+      width: 50%; /* 讓菜單項目一排兩個 */
+  }
+}
+
+
 /* 導覽列 */
 .navbar {
   position: fixed;
@@ -42,11 +62,42 @@
   color: #ec5435; /* 懸停效果 */
 }
 
+/* 漢堡按鈕 */
+.hamburger {
+  color: #ddd;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* RWD 設計：手機版 */
+@media screen and (max-width: 750px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background: #2a2828;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+
+  .hamburger {
+      display: block;
+  }
+}
+
 /* 主頁 */
 .hero {
   position: relative;
-  width: 100%;
-  height: 100vh; /* 高度占視窗的 100% */
+  max-width: 100%;
+  height: 100vh; 
   background-image: url('img/image.png'); 
   background-size: cover;
   background-position: center;
@@ -65,18 +116,18 @@
   text-align: center;
 }
 .text h1{
-  font-size: 2.5rem;
+  font-size: 5vw; /* 螢幕寬度的 5% */
   font-family: 'Georgia', serif;
   margin-bottom: 30px;
 }
 .text span{
-  font-size: 2.5rem;
+  font-size: 5vw; /* 螢幕寬度的 5% */
   font-family: 'Georgia', serif;
   margin-bottom: 10px;
   color: #b54b3a;
 }
 .text p{
-  font-size: 2.5rem;
+  font-size: 1.4rem; /* 根據 root 字體大小調整 */
   font-family: 'Arial', sans-serif;
   opacity: 0.8;
 }
@@ -84,7 +135,7 @@
 /*簡易介紹*/
 .container-1{
   position: relative;
-  width: 100%;
+  max-width:100%;
   height: 50vh; /* 高度占視窗的 50% */
   background-image: url('img/street_1.webp'); 
   background-size: cover;
@@ -104,12 +155,13 @@
 .container-overlay-1 h1{
   color: white;
   font-family: 'Georgia', serif;
-  font-size: 2rem;
+  font-size: 5vw; /* 螢幕寬度的 5% */
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
 }
 .container-overlay-1 p{
+  font-size: 1.1rem; /* 根據 root 字體大小調整 */
   text-align: center;
   color: white;
   opacity: 0.8;
@@ -117,7 +169,7 @@
 }
 .container-2{
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 50vh; /* 高度占視窗的 50% */
   background-image: url('img/street_2.webp'); 
   background-size: cover;
@@ -137,12 +189,13 @@
 .container-overlay-2 h1{
   color: white;
   font-family: 'Georgia', serif;
-  font-size: 2rem;
+  font-size: 5vw; /* 螢幕寬度的 5% */
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
 }
 .container-overlay-2 p{
+  font-size: 1.1rem; /* 根據 root 字體大小調整 */
   text-align: center;
   color: white;
   opacity: 0.8;

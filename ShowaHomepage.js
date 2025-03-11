@@ -21,3 +21,9 @@
       messageBox.classList.remove("show");
     }
   });
+
+    //hamburger 控制選單開關
+  function toggleMenu() {
+    const nav = document.querySelector(".nav-links");
+    nav.classList.toggle("show");
+}
