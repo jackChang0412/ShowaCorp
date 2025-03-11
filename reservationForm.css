@@ -9,7 +9,7 @@ body {
 
     /*小螢幕 RWD 設計 */
 @media screen and (max-width: 768px) {
-    .form-container {
+    .reservation-container {
         width: 100%;
         max-width: 100%;
         margin: 20px;
