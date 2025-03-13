@@ -1,0 +1,106 @@
+/* 桌機版本 */
+@media (min-width: 750px) {
+    .content-about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .text-about {
+        flex: 1;
+    }
+    .about-image img {
+        max-width: 400px;
+    }
+}
+
+/* 手機版本 */
+@media (max-width: 749px) {
+    .content-about, .restaurant-features, .chef-section, .customer-reviews, .gallery {
+        display: block;
+        text-align: center;
+    }
+    .about-image img {
+        width: 100%;
+    }
+}
+
+
+#about {
+    background: rgba(120, 152, 232, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.container-about {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.content-about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-about {
+    flex: 1;
+    color: rgb(18, 15, 15);
+    text-align: left;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+.restaurant-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.restaurant-features li {
+    flex: 1;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color:rgb(18, 15, 15);
+}
+
+.chef-section {
+    text-align: left;
+    color: rgb(18, 15, 15);
+    margin-top: 30px;
+}
+
+.chef-profile {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.chef-profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 100%;
+    border-radius: 10px;
+}
