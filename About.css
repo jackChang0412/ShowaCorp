@@ -77,21 +77,18 @@ h2 {
 }
 
 .chef-section {
-    text-align: left;
+    text-align: center;
     color: rgb(18, 15, 15);
     margin-top: 30px;
-}
-
-.chef-profile {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-top: 50px;
 }
 
 .chef-profile img {
     width: 150px;
     border-radius: 50%;
+}
+
+.chef-text{
+    text-align: left;
 }
 
 .gallery-images {
