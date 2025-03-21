@@ -1,0 +1,60 @@
+/* 全局樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #dac4b6;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.dish {
+    width: 85%;
+    max-width: 500px;
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;  /* 讓內容縱向排列 */
+    align-items: center;
+    text-align: center;
+}
+
+/* 圖片設定 */
+.dish img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px; /* 與文字區域保持間距 */
+}
+
+/* 標題與內文 */
+.dish h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.dish p {
+    font-size: 1rem;
+    color: #171515;
+}
+
