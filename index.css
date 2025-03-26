@@ -50,7 +50,7 @@
   gap: 15px; 
 }
 .nav-links li {
-  margin: 0px 12px;
+  margin: 0px 15px;
 }
 .nav-links a {
   text-decoration: none;
@@ -78,7 +78,7 @@
       flex-direction: column;
       background: #2a2828;
       position: absolute;
-      top: 30px;
+      top: 45px;
       left: 0;
       width: 100%;
       text-align: center;
@@ -234,11 +234,7 @@
   color: #b54b3a;
   margin-bottom: 10px;
 }
-.card p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.5;
-}
+
 .card:hover {
   transform: translateY(-20px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
