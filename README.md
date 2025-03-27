@@ -3,7 +3,7 @@ Creator: Jack Chang
 
 1. Background
 
-To improve our brand image, attract foreign customers, and meet the operational requirements of our future international locations, we must develop a website to expand our business to other countries. To guarantee that consumers worldwide can readily obtain restaurant information, the website will be primarily in English and tailored for people from other countries. The goal of the website is to provide an online brand image and features of the restaurant and increase the conversion rate of overseas customers.
+  To improve our brand image, attract foreign customers, and meet the operational requirements of our future international locations, we must develop a website to expand our business to other countries. To ensure that consumers worldwide can easily access the restaurant's information, the website will be primarily in English and designed for an international audience. Our goal is to establish the restaurant's online brand image, showcase its features, and increase the conversion rate of international customers.
 
 2. Goal
 
