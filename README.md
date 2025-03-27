@@ -1,3 +1,12 @@
-隨著數位時代的發展，餐廳不僅需要依靠傳統的線下宣傳，還需要透過網站來吸引更多顧客。因此，本網站的目標是建立一個現代化的餐廳官方網站，提供完整的菜單資訊、餐廳介紹、聯絡方式，並提升品牌形象，以增加來客數與轉換率。
+Date: 2025/1/10
+Creator: Jack Chang
 
-本網站將專注於簡潔、易用、響應式的設計，確保用戶能夠在桌機、平板和手機上獲得最佳瀏覽體驗。
+1. Background
+
+To improve our brand image, attract foreign customers, and meet the operational requirements of our future international locations, we must develop a website to expand our business to other countries. To guarantee that consumers worldwide can readily obtain restaurant information, the website will be primarily in English and tailored for people from other countries. The goal of the website is to provide an online brand image and features of the restaurant and increase the conversion rate of overseas customers.
+
+2. Goal
+
+  1. Support for International Market Expansion: Customers can easily know the restaurant's information in English.
+  2. High-quality brand image: Emphasize the restaurant's features and values to attract international customers.
+  3. Enhance the user experience: Ensure the website is easy to use so customers can quickly find important information (menu, address, reservation).
