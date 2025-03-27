@@ -7,6 +7,6 @@ Creator: Jack Chang
 
 2. Goal
 
- Support for International Market Expansion: Customers can easily know the restaurant's information in English.
- High-quality brand image: Emphasize the restaurant's features and values to attract international customers.
- Enhance the user experience: Ensure the website is easy to use so customers can quickly find important information (menu, address, reservation).
+ 1. Support for International Market Expansion: Customers can easily know the restaurant's information in English.
+ 2. High-quality brand image: Emphasize the restaurant's features and values to attract international customers.
+ 3. Enhance the user experience: Ensure the website is easy to use so customers can quickly find important information (menu, address, reservation).
