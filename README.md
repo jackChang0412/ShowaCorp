@@ -7,14 +7,20 @@ Background
 
 Goal
 
- 1. Support for International Market Expansion: Customers can easily know the restaurant's information in English.
- 2. High-quality brand image: Emphasize the restaurant's features and values to attract international customers.
- 3. Enhance the user experience: Ensure the website is easy to use so customers can quickly find important information (menu, address, reservation).
+1. Support for International Market Expansion: Customers can easily know the restaurant's information in English.
+2. High-quality brand image: Emphasize the restaurant's features and values to attract international customers.
+3. Enhance the user experience: Ensure the website is easy to use so customers can quickly find important information(menu, address, reservation).  
 
 Features
 
-  Homepage: Highlights brand identity, branch information, and featured dishes.
-  About Us: Showcases brand philosophy, history, and unique offerings.
-  Menu: Displays an easy-to-read English menu with high-quality food images.
-  Contact Us: Provides contact details, overseas branch locations, and embedded Google Maps.
-  Responsive Design: Ensures a seamless experience across mobile, tablet, and desktop devices.
+  Homepage: Highlighting brand identity, branch information, and featured dishes.
+  About Us: Showcasing brand philosophy, history, and unique offerings.
+  Menu: Displaying an easy-to-read English menu with high-quality food images.
+  Contact Us: Providing contact details, overseas branch locations, and embedded Google Maps.
+  Responsive Design: A seamless experience across mobile, tablet, and desktop devices.
+
+Future Enhancements
+
+  Multilingual Suppor: Additional language options such as Japanese, Chinese, and French for expanded accessibility.
+  Global SEO Optimization: Adapts SEO strategies for different regional search trends.
+  
