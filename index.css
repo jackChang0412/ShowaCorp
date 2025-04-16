@@ -152,7 +152,7 @@
   justify-content: center; /* 水平置中 */
   align-items: center; /* 垂直置中 */
 }
-.container-overlay-1 h1{
+.container-overlay-1 h2{
   color: white;
   font-family: 'Georgia', serif;
   font-size: 3vw; /* 螢幕寬度的 3% */
@@ -186,7 +186,7 @@
   justify-content: center; /* 水平置中 */
   align-items: center; /* 垂直置中 */
 }
-.container-overlay-2 h1{
+.container-overlay-2 h2{
   color: white;
   font-family: 'Georgia', serif;
   font-size: 3vw; /* 螢幕寬度的 3% */
@@ -259,7 +259,7 @@ iframe {
 
 /* FAQ */
 .FAQ-container{
-  width: 80%;
+  width: 100%;
   max-width: 700px;
   margin: 30px auto;
 }
